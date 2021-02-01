@@ -1,0 +1,239 @@
+/*-------------------------------------------------------------------------------
+  https://themeforest.net/item/cards-personal-vcard-resumecv-portfolio/13066785
+
+    Author: Diego Pereira @ DotRex
+  Modified: Daniel Khodaparast
+-------------------------------------------------------------------------------*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: url('../assets/imgs/bg-dark.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a:focus {
+  outline: none;
+}
+
+/* ==========================================================
+! SOCIAL
+========================================================== */
+.social-icons {
+  font-size: 28px;
+  text-align: right;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .social-icons {
+    display: block;
+  }
+}
+
+.social-icons a {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}
+
+.footer-social-icons {
+  text-align: center;
+}
+
+.footer-social-icons a {
+  color: #ffffff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #333333;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.footer-social-icons a:hover {
+  color: #ffffff;
+  background: #085dae;
+}
+
+/* ==========================================================
+! CONTAINER
+========================================================== */
+.container {
+  position: relative;
+  padding-bottom: 80px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width:992px) {
+  .container {
+    min-height: 680px;
+  }
+}
+
+.section-vcardbody {
+  width: 99%; height: 500px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  background: url('../assets/imgs/bg-card.png') repeat-x right top #f4f4f4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-top: 6px solid #111;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  border-bottom: 15px solid #f4f4f4;
+}
+
+@media (min-width:992px) {
+  .section-vcardbody {
+    position: absolute;
+    margin-top: 40px;
+    left: 30%;
+    height: 580px;
+    width: 40%;
+    padding: 45px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .section-vcardbody {
+    height: 540px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section-vcardbody {
+    margin-top: 180px;
+  }
+}
+
+.section-vcardbody-pgactive {
+  left: 15%;
+}
+
+@media (min-width:992px) {
+  .section-page-single {
+    left: 55%;
+    transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -webkit-transform: translateY(-200px);
+    visibility: hidden;
+    padding: 20px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width:992px) {
+  .section-page {
+    z-index: 11;
+    opacity: 0;
+  }
+}
+
+/* ==========================================================
+! HOME
+========================================================== */
+.section-home {
+  z-index: 88;
+  opacity: 1;
+  overflow-y: auto;
+}
+
+.vcard-profile-pic {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.vcard-profile-pic img {
+  width: 100%;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border: 6px solid #ddd;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1!important;
+}
+
+.vcard-profile-description {
+  text-align: center;
+}
+
+.profile-title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 36px;
+  letter-spacing: -2px;
+  margin-bottom: 8px;
+  color: #085dae;
+}
+
+.profile-subtitle {
+  text-align: center;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vcard-profile-description-text {
+  padding: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.vcard-profile-description-text p {
+  font-size: 13px;
+}
+
+.hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: url('../assets/imgs/hr.png') no-repeat center center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ==========================================================
+! CROSSBROWSER FALLBACKS
+========================================================== */
+.safari .vcard-profile-pic img {
+  border: 6px solid #ddd;
+}
