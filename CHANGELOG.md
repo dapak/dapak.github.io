@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2022-06-26
+### Changed
+- Background image updated to Emerald Isle
+- Favicon updated to Rainbow Heart by kosonicon
+- Profile picture updated
+- Typo fixed on main page
+
 ## [1.0.1] - 2022-05-20
 ### Changed
 - Updated job role to "Senior Software Engineer & Team Lead"
