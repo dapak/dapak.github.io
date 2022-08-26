@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2022-08-26
+### Changed
+- Updated job role to "Senior Site Reliability Engineer"
+- Updated location breadth to "NC Triangle"
+
 ## [1.0.2] - 2022-06-26
 ### Changed
 - Background image updated to Emerald Isle
@@ -19,3 +24,4 @@ All notable changes to this project will be documented in this file.
 [1.0.0]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.0
 [1.0.1]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.1
 [1.0.2]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.2
+[1.0.3]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.3
