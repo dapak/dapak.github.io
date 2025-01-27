@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2025-01-27
+## Changed
+- Upgraded Font Awesome to v6.7.2
+- Removed Twitter in favor of Bluesky social handle
+
 ## [1.0.3] - 2022-08-26
 ### Changed
 - Updated job role to "Senior Site Reliability Engineer"
@@ -25,3 +30,4 @@ All notable changes to this project will be documented in this file.
 [1.0.1]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.1
 [1.0.2]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.2
 [1.0.3]: https://github.com/dapak/dapak.github.io/releases/tag/v1.0.3
+[1.1.0]: https://github.com/dapak/dapak.github.io/releases/tag/v1.1.0
